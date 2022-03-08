@@ -1,0 +1,183 @@
+body{
+    background-image: linear-gradient(lightblue,white,pink);
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+.headerList{
+    display: flex;
+}
+
+.headerListbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(red,green,yellow);
+}
+.headerHeading{
+    margin-left: 150px;
+    margin-right: 200px;
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* HOME PAGE */
+.HomepageHeading{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 50px 0px 0px 50px;
+}
+/* CONTACT PAGE */
+.ContactpageHeading{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 50px 0px 0px 50px;
+}
+
+/*  STUDENT Page*/
+.introandAdd{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Student_heading{
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.Student_addStudentBtn{
+    border: 1px solid black;
+    padding: 6px 40px 6px 40px;
+    font-size: large;
+    position: relative;
+    top: 55px;
+    left: 1100px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: red;
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+
+}
+.changecolor{
+    text-decoration-color:aquamarine;
+    color: green;
+    cursor: pointer;
+    
+}
+/* Student table */
+.Student_TableInfo{
+    border: 2px solid yellowgreen;
+    margin: 100px 10px 0px 250px;
+    background-color: lightsalmon;
+    width: 1000px;
+    border-radius: 15px;
+}
+.Table_Heading{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: yellow;
+}
+
+/* ADD AND EDIT FORM  ( STUDENT_DESC )  */
+ .forms{
+    display: flex;
+    flex-wrap: wrap;
+}
+.word_Name{
+    font-size: x-large;
+    font-weight: bold;
+    position: relative;
+    top: 54px;
+    left: 200px;
+}
+.word_Name_Box{
+    height: 50px;
+    font-size: x-large;
+    position: relative;
+    top: 54px;
+    left: 220px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+.word_Age{
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+    top: 135px;
+    left: 820px;
+}
+.word_Age_Box{
+    text-align: center;
+    font-size: x-large;
+    position: absolute;
+    top: 130px;
+    height: 50px;
+    left: 910px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+.word_Batch{
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+    top: 255px;
+    left: 200px;
+}
+.word_Batch_Box{
+    font-size: x-large;
+    position: absolute;
+    top: 250px;
+    height: 50px;
+    left: 310px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    text-align: center;
+}
+.word_Course{
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+    top: 255px;
+    left: 800px;
+}
+.word_Course_Box{
+    font-size: x-large;
+    position: absolute;
+    top: 250px;
+    left: 930px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.submitButton{
+    border: 1px solid black;
+    font-size: x-large;
+    padding: 10px 30px 10px 30px;
+    background-color: orangered;
+    border-radius: 20px;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    cursor: pointer;
+
+}
+.cancelButton{
+    border: 1px solid black;
+    font-size: x-large;
+    padding: 10px 30px 10px 30px;
+    background-color: olive;
+    border-radius: 20px;
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    cursor: pointer;
+
+}
